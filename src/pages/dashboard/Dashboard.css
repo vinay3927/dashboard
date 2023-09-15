@@ -1,0 +1,14 @@
+body {
+    background-color: #F8FAFF;
+    margin: 0; 
+  }
+  
+  .dash-container {
+    display: grid;
+    grid-template-columns: 15rem auto;
+    height: 100vh; 
+    gap: 50px; 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  

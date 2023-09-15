@@ -1,0 +1,48 @@
+.chart canvas{
+    margin-right: 0px;
+    width: 1000px !important;
+    height: 200px !important;
+}
+
+.chart{
+    height: 250px;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.chart .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.chart .heading .legend {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.legend div span.circle {
+    display: inline-block;
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+
+    border: none; 
+  }
+  
+.chart .heading .date{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.chart .heading span:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}

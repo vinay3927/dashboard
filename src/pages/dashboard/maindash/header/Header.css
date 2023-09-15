@@ -1,0 +1,30 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;;
+    cursor: pointer;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.search-box input{
+    border: transparent;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+}
+.search-box input::placeholder {
+    font-size: 16px; 
+  }

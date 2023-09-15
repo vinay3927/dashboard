@@ -1,0 +1,11 @@
+.Cards {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .parentContainer{
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 25px;
+  }
